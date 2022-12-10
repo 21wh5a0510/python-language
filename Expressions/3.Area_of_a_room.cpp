@@ -7,7 +7,7 @@ and output message in either feet or meters, depending on which which unit you a
 using namespace std;
 int main()
 {
-	double width,length,area;
+	float width,length,area;
 	cout<<"Enter width:";
 	cin>>width;
 	cout<<"Enter length:";
