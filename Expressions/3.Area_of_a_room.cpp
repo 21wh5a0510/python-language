@@ -7,5 +7,11 @@ and output message in either feet or meters, depending on which which unit you a
 using namespace std;
 int main()
 {
-	cout<<"hello";
+	double width,length,area;
+	cout<<"Enter width:";
+	cin>>width;
+	cout<<"Enter length:";
+	cin>>length;
+	area=width*length;
+	cout<<"Area of the room:"<<area<<"square meter";
 }
