@@ -25,3 +25,16 @@ int main()
 	cout<<"The sum of the digits are"<<sum;
 	return 0;
 }
+
+/* Using strings
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	string s;
+	cout<<"Enter 4 digit number:";
+	cin>>s;
+	cout<<"The Sum of Digits is "<<(s[0]-'0')+(s[1]-'0')+(s[2]-'0')+(s[3]-'0');
+	return 0;
+}
