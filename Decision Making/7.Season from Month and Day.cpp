@@ -4,7 +4,7 @@ of the way that the calendar is constructed, we will use the following dates for
 
                  Season            First Day
 				                  
-			    Spring       	   March 20
+			      Spring       	     March 20
                  Summer             June 21
                   Fall             September 22
                  Winter             December 21
