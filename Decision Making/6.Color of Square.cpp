@@ -1,3 +1,10 @@
+/*Positions on a chess board are identified by a letter and a number.The letter identifies the column,
+while the number identifies the row, as shown below.Write a program that reads a position from the user 
+and determine whether that position represents a black square or a white square. For example, if the user 
+enters al then your program should report that the square is black. If the user enters d5 then your program 
+should report that the square is white. Your program may assume that a valid position will always be entered.
+It does not need to perform any error checking.*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
