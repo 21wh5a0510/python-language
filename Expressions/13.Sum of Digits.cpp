@@ -5,9 +5,23 @@ For example, if the user enters 3141 then your program should display 3+1+4+1=9.
 using namespace std;
 int main()
 {
-	string n;
+	int n;
 	cout<<"Enter 4 digit number:";
 	cin>>n;
-	cout<<"The sum of digits is "<<(n[0]-'0')+(n[1]-'0')+(n[2]-'0')+(n[3]-'0');
+	int a,sum=0;
+	a=n%10;
+	sum+=a;
+	n=n/10;
+	
+	a=n%10;
+	sum+=a;
+	n=n/10;
+	
+	a=n%10;
+	sum+=a;
+	n=n/10;
+	
+	sum+=n;
+	cout<<"The sum of the digits are"<<sum;
 	return 0;
 }
