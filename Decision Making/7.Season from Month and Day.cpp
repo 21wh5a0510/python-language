@@ -44,4 +44,5 @@ int main()
 	{
 		cout<<"Enter correct month";
 	}
+	return 0;
 }
