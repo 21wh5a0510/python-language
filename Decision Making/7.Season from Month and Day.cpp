@@ -2,7 +2,7 @@
 While the exact dates that the seasons change vary a little bit from year to year because 
 of the way that the calendar is constructed, we will use the following dates for this exercise:
                  Season            First Day
-				 Spring       	     March 20
+		Spring       	     March 20
                  Summer             June 21
                   Fall             September 22
                  Winter             December 21
