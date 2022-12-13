@@ -1,3 +1,5 @@
+/*Write a program that will examine each character in a given string and determine how many of the characters are vowels and consonants.*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
