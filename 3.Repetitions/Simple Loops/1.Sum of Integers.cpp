@@ -1,3 +1,5 @@
+/*Given the value of n, Write a program that displays the sum of first n integers.*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -13,7 +15,7 @@ int main()
 	return 0;
 }
 
-/*
+/* Uisng While
 
 #include<bits/stdc++.h>
 using namespace std;
