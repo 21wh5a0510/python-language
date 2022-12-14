@@ -7,7 +7,8 @@ int main()
 	cin>>x;
 	int guess;
 	guess=x/2;
-	int a=10^(-12);
+	float a=(float)pow(10,-12);
+	cout<<a;
 	while(abs(guess*guess-x)<=a)
 	{
 		guess=(guess+x/guess)/2;
