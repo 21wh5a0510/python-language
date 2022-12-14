@@ -23,7 +23,7 @@ int main()
 			cout<<"License plate is not valid";
 		}
 	}
-	else if(s.length())
+	else if(s.length()==7)
 	{
 		if(s[0]>='0' && s[0]<='9' && s[1]>='0' && s[1]<='9' && s[2]>='0' && s[2]<='9' && s[3]>='0' && s[3]<='9' && s[4]>='A' && s[4]<='Z' && s[5]>='A' && s[5]<='Z' && s[6]>='A' && s[6]<='Z')
 		{
