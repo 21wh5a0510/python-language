@@ -3,16 +3,28 @@ using namespace std;
 int main()
 {
 	string s;
-	int a,dec;
-	cout<<"Enter string:";
+	int dec,sum=0,a=0;
+	cout<<"Enter Binary Number:";
 	cin>>s;
-	int length=s.length();
-	for(int i=0;i<s.length();i++)
+	for(int i=s.length()-1;i>=0;i--)
 	{
-		a=(s[i]-'0')*pow(2,length);
-		dec+=a;
-		length--;
+		if(s[i]-'0'
+		==1)
+		{
+			dec=pow(2,a);
+			a++;
+			sum+=dec;
+		}
+		else if(s[i]-'0'==0)
+		{
+			a++;
+		}
+		else
+		{
+			cout<<"Please Enter Correct Binary Number";
+			return 0;
+		}
 	}
-	cout<<dec;
+	cout<<sum;
 	return 0;
 }
