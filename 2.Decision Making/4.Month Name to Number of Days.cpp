@@ -17,9 +17,13 @@ int main()
 	{
 		cout<<"Number of days in "<<s<<" is 28 or 29";
 	}
-	else
+	else if(s=="april"||s=="june"||s=="september"||s=="november")
 	{
 		cout<<"Number of days in "<<s<<" is 30";
+	}
+	else
+	{
+		cout<<"Enter Correct month";
 	}
 	return 0;
 }
