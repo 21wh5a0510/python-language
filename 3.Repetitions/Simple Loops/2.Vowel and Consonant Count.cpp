@@ -10,7 +10,8 @@ int main()
 	cin>>s;
 	for(int i=0;i<s.length();i++)
 	{
-		if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u')
+		char a=tolower(s[i]);
+		if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
 		{
 			vcount++;
 		}
