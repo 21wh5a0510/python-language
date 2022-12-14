@@ -1,6 +1,5 @@
-#include<string>
-#include<iostream>
-#include<cstdlib>
+#include<bits/stdc++.h>
+#include<string.h>
 using namespace std;
 int main()
 {
@@ -10,10 +9,8 @@ int main()
 	while(q!=0)
 	{
 		int r=q%2;
-		string tmp = new string(itoa(r));
-		result=tmp+result;
+		result=to_string(r)+result;
 		q=q/2;
 	}
 	cout<<result;
-	return 0;
 }
