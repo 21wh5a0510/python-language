@@ -10,7 +10,7 @@ int main()
 	char a;
 	cout<<"Enter letter:";
 	cin>>a;
-	if(a=='a'||a=='i'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
+	if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
 	{
 		cout<<"The Letter is vowel";
 	}
@@ -18,8 +18,13 @@ int main()
 	{
 		cout<<"sometimes y is a vowel and sometimes y is a consonant";
 	}
-	else
+	else if(a>='a'&&a<='z'||a>='A'&&a<='Z')
 	{
 		cout<<"The letter is consonant";
 	}
+	else
+	{
+		cout<<"Enter a letter";
+	}
+	return 0;
 }
