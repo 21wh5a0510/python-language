@@ -7,13 +7,11 @@ int main()
 	cin>>x;
 	int guess;
 	guess=x/2;
-	float a=(float)pow(10,-12);
-	cout<<a;
-	while(abs(guess*guess-x)<=a)
+	float a=pow(10,-3);
+	while(abs(guess*guess)-x>=a)
 	{
-		guess=(guess+x/guess)/2;
+		guess=(guess+(x/guess))/2;
 	}
-	cout<<"guess";
 	cout<<guess;
 	return 0;
 }
